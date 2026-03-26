@@ -1,0 +1,240 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 5%; 
+    height: 70px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+main {
+    margin-top: 90px; 
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(60, 60, 62);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+
+nav a:hover{
+    color: firebrick;
+}
+
+
+main {
+    margin-top: 100px; 
+    padding: 0 1%;
+}
+
+/*nav {
+    z-index: 1000; 
+    top: 0;
+    left: 0;
+}
+
+.head {
+    margin-top: 90px; 
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1; 
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.2em;
+    color: #333;
+}*/
+
+nav button {
+    background-color: rgb(21, 21, 100);;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:medium ;
+    text-decoration: none;
+}
+
+.campaign-section {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+
+.campaign-section h2 {
+    color: rgb(21, 21, 100);
+    margin-bottom: 25px;
+}
+.campaign-section table {
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.campaign-section table img {
+    max-width: 100px; 
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+
+.campaign-section td {
+    vertical-align: middle;
+}
+.campaign-section thead tr{
+    background-color: rgb(91, 91, 91);
+    color:white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.campaign-section thead th , td{
+    padding: 12px 15px;
+}
+
+.campaign-section tbody tr{
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.campaign-section tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+
+}
+
+.campaign-section tbody tr:nth-last-of-type{
+    border-bottom: 2px solid rgb(21, 21, 100);
+}
+
+.btn {
+    padding: 6px 12px;
+    margin: 2px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: 0.3s;
+    background: white;
+}
+
+.delete-btn {
+    color: #d9534f;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:medium ;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background: #d9534f;
+    color: white;
+}
+
+.update-btn {
+    color: rgb(21, 21, 100);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:medium ;
+    text-decoration: none;
+}
+
+.update-btn:hover {
+    background: rgb(21, 21, 100);
+    color: white;
+}
+.profile-section {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 900px;
+    margin: 40px auto; 
+    padding: 30px;
+}
+
+.profile-section h2 {
+    color: rgb(21, 21, 100);
+    margin-bottom: 20px;
+}
+
+.profile-section form {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    padding: 20px; 
+    gap: 15px; 
+    
+}
+
+
+input {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee; 
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(21, 21, 100); 
+}
+
+.profile-section label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-right: -5px; 
+}
+
+.profile-section .btn {
+    width: auto; 
+    padding: 10px 25px;
+    background-color: rgb(21, 21, 100); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start;
+}
+input{
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+}
+
+
+

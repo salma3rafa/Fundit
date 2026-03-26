@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Campaign</title>
+    <link rel="stylesheet" href="./css/createCampaign.css">
+</head>
+<body>
+     <header class="title">
+      <h1>Create a New Campaign</h1>
+    </header>
+     <main class="container"> 
+      <form id="campaignForm" autocomplete="off">
+       
+        <!-- Campaign Image -->
+        <div class="form-group">
+          <label for="campaignImage">Upload Campaign Image:</label>
+          <input type="file" id="campaignImage" accept="image/*" required />
+        </div>
+
+        <!-- Campaign Title -->
+        <div class="form-group">
+          <label for="campaignTitle">Campaign Title:</label>
+          <input
+            type="text"
+            id="campaignTitle"
+            placeholder="Enter campaign title"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="campaignD">Campaign description:</label>
+          <input
+            type="text"
+            id="campaignD"
+            placeholder="Enter campaign Description"
+            required
+          />
+        </div>
+        <!-- Campaign Goal -->
+        <div class="form-group">
+          <label for="campaignGoal">Campaign Goal (EGP):</label>
+          <input
+            type="number"
+            id="campaignGoal"
+            placeholder="Enter campaign goal"
+            required
+          /> 
+        </div>
+
+        <!-- Campaign Deadline -->
+        <div class="form-group">
+          <label for="campaignDeadline">Deadline:</label>
+          <input type="date" id="campaignDeadline" required />
+        </div>
+
+        <button type="submit" class="btn">Sumbit</button>
+      </form>
+    </main>
+    <script src="./JS/createCampaign.js"></script>
+</body>
+</html>

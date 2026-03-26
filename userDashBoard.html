@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="./css/userDashBoard.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+        <a href="compaigns.html">Back to campaigns</a>
+        <button onclick="logout()">Logout</button>
+        </nav>
+    </header> 
+    <main>
+        <section class="profile-section">
+            <h2>Update profile</h2>
+            <form id="profileForm">
+                <label for="userName">Name</label>
+                <input type="text" id="userName" placeholder="Enter new name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter new email">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter new password">
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+        <section class="campaign-section">
+            <h2>My Campaigns</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Goal</th>
+                        <th>Deadline</th>
+                        <th>Image</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="campaignsTable"></tbody>
+            </table>
+        </section>
+    </main>
+    
+    
+    
+    <script src="./JS/userDashBoard.js"></script>
+</body>
+</html>

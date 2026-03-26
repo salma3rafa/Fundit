@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": "025",
+      "name": "Salma Arafa",
+      "email": "salmaelsayed1504@gmail.com",
+      "password": "salma1504",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "052",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "password": "user123",
+      "role": "user",
+      "isActive": false
+    },
+    {
+      "id": "0645",
+      "name": "salma",
+      "email": "test@gmail.com",
+      "password": "salma123",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "ce4c",
+      "name": "yousef",
+      "email": "test@gmail.com",
+      "password": "yousef123",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "e4b7",
+      "name": "ahmed",
+      "email": "test2@gmail.com",
+      "password": "ahmed123",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "0288",
+      "name": "mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "mohamed123",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "7abf",
+      "name": "test2",
+      "email": "test2@gmail.com",
+      "password": "test",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "92e7",
+      "name": "test",
+      "email": "test2@gmail.com",
+      "password": "test",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "c145",
+      "name": "test22",
+      "email": "test22@gmail.com",
+      "password": "rf",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "3d35",
+      "name": "Salma elsayed",
+      "email": "salmaelsayed1505@gmail.com",
+      "password": "salma1504",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "30dc",
+      "name": "ahmed",
+      "email": "test4@gmail.com",
+      "password": "123",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "97c2",
+      "name": "yousef",
+      "email": "salmaelsayed150@gmail.com",
+      "password": "salma1504",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "1e93",
+      "name": "test",
+      "email": "salmaelsayed150@gmail.com",
+      "password": "salma123",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "2655",
+      "name": "yousef",
+      "email": "salmaelsayed150@gmail.com",
+      "password": "salma1504",
+      "role": "user",
+      "isActive": true
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "1",
+      "title": "Eco Bottle",
+      "description": "Eco friendly water bottle",
+      "creatorId": "025",
+      "category": "Environment",
+      "goal": 10000,
+      "deadline": "2026-10-10",
+      "isApproved": true,
+      "image": "images/bottle.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Music Album",
+      "description": "Help produce a new album",
+      "category": "Music",
+      "goal": 5000,
+      "isApproved": true,
+      "image": "images/musicalub.jpeg"
+    }
+  ],
+  "pledges": [
+    {
+      "id": "1",
+      "campaignId": "1",
+      "userId": "052",
+      "amount": 100
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

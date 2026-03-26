@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundIT - Guest</title>
+    <link rel="stylesheet" href="css/guest.css">
+</head>
+<body>
+    <nav>
+        <img src="images/icon.png" alt="">
+        <div class="navigation-auth">
+            <a href="index.html" class="button-guest">Home</a>
+            <a href="register.html" class="button-signup">Sign Up</a>
+            <a href="login.html" class="button-login">Login</a>
+        </div>
+    </nav>
+
+    <section id="funds">
+
+        <h1>Approved Campaigns</h1>
+        <p>Explore campaigns that have been approved by our team.</p>
+
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search campaigns..."
+            >
+            <button onclick="handleGuestSearch()">
+                Search
+            </button>
+        </div>
+            <div class="campain_box" id="campaignContainer">
+        </div>
+
+
+    </section>
+
+
+
+    <script src="JS/guest.js"></script>
+
+</body>
+</html>

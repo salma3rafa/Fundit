@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/compaigns.css">
+    <title>FundIT</title>
+</head>
+
+
+<body>
+    <!--Nav--> 
+    <nav>
+        <img src="images/icon.png" alt="">
+        <div class="navigation">
+           <button id="myCampaignsBtn" class="my-campaigns">My Campaigns</button>
+           <button id="allCampaignsBtn" class="all-campaigns">All Campaigns</button>
+           <button class="create-campaign" onclick="window.location.href='createCampaign.html' ">create-campaign</button>
+           <button class="create-campaign" onclick="window.location.href='userDashBoard.html' ">User Details</button>
+          <button onclick="logout()" class="logout">Logout</button>
+          </div>
+       
+    </nav>
+ 
+    <!--home-->
+    <section class="campaigns-container">
+        <div id="campaignsList"></div>
+    </section>
+
+    <section>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item1">
+                    <a href="#home">
+                        <h2>FundIT</h2>
+                    </a>
+                    <p>Ready to Make an Impact?
+                        The world is full of great ideas. The only thing missing is the fuel to start the fire. </p>
+                    <!-- social media -->
+                </div>
+                <div class="footer-item2">
+                    <h2><strong>Explore</strong></h2>
+                    <h4>About us</h4>
+                    <h4>Pages</h4>
+                    <h4>Blog</h4>
+                    <h4>Privacy & Policy</h4>
+
+                </div>
+
+                <div class="footer-item3">
+                    <h2><strong>Donate</strong></h2>
+                    <h4>Give Donation</h4>
+                    <h4>Become Volunteer</h4>
+                    <h4>Child Sponsorship</h4>
+                    <h4>Other Ways to Give</h4>
+                </div>
+
+                <div class="footer-item4">
+                    <h2><strong>Subscribe Newsletter</strong></h2>
+                    <div class="footer-item5">
+                        <input type="text" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <hr style="margin: 1em; height: 2px; "><!--line-->
+            <p>Copyright &copy; 2026 Developed by <a href="#" style="color: #0b0436c0; text-decoration: none;">Salma
+                    Elsayed.</a></p>
+        </footer>
+    </section>
+    <script src="./JS/compaigns.js"></script>
+</body>
+
+</html>
